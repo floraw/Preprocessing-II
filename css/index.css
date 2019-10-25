@@ -234,7 +234,7 @@ nav .nav-container div a {
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
   }
 }
@@ -247,7 +247,7 @@ nav .nav-container div a {
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
   }
 }
@@ -282,6 +282,11 @@ nav .nav-container div a {
 .home .content-destination img {
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 90%;
+  }
+}
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
@@ -302,6 +307,10 @@ nav .nav-container div a {
   text-align: center;
   vertical-align: middle;
   border-radius: 10px;
+  cursor: pointer;
+}
+.home .content-pick .destination .btn:hover {
+  opacity: 0.5;
 }
 @media (max-width: 500px) {
   .home .content-pick {
@@ -321,5 +330,9 @@ nav .nav-container div a {
     text-align: center;
     vertical-align: middle;
     border-radius: 10px;
+    cursor: pointer;
+  }
+  .home .content-pick .destination .btn:hover {
+    opacity: 0.5;
   }
 }
